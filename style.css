@@ -136,7 +136,6 @@ td:nth-child(even) {
 @media screen and (min-width: 48rem) {
   body {
     background-color: var(--stone-100);
-    padding: 2.5rem;
     display: grid;
     place-items: center;
     margin: 8rem 0;
