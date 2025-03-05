@@ -8,6 +8,8 @@ body {
   font-weight: 350;
   color: var(--stone-600);
   line-height: 1.5;
+  display: grid;
+  place-items: center;
 }
 
 img {
@@ -131,12 +133,13 @@ td:nth-child(even) {
   color: var(--brown-800);
 }
 
-@media screen and (min-width: 39rem) {
+@media screen and (min-width: 48rem) {
   body {
     background-color: var(--stone-100);
     padding: 2.5rem;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    margin: 8rem 0;
   }
 
   main {
@@ -156,7 +159,7 @@ td:nth-child(even) {
   }
 }
 
-@media screen and (min-width: 46rem) {
+@media screen and (min-width: 90rem) {
   main {
     max-width: 46rem;
   }
