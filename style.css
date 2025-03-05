@@ -131,20 +131,6 @@ td:nth-child(even) {
   color: var(--brown-800);
 }
 
-.recipe__attribution {
-  background-color: var(--stone-100);
-  padding: 1rem;
-  border-radius: 0.75rem;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  color: var(--stone-600);
-  font-weight: 600;
-  a {
-    text-decoration: none;
-  }
-}
-
 @media screen and (min-width: 39rem) {
   body {
     background-color: var(--stone-100);
